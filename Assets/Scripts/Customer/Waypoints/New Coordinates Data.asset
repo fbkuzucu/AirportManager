@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f5d8aec672f08489fc2baf86839229, type: 3}
+  m_Name: New Coordinates Data
+  m_EditorClassIdentifier: 
+  customerWaypoints:
+  - position: {x: -104.986, y: 3.496, z: -30.272}
+    animationTrigger: DropLuggage
+    waitTime: 0
+    requiredStateToLeave: 0
+  - position: {x: -108.47257, y: 3.496, z: -30.102062}
+    animationTrigger: 
+    waitTime: 0
+    requiredStateToLeave: 0
+  - position: {x: -107.5526, y: 3.496, z: -20.67006}
+    animationTrigger: RunningLadders
+    waitTime: 1
+    requiredStateToLeave: 0
+  - position: {x: -107.5526, y: 9.294, z: -10.98206}
+    animationTrigger: 
+    waitTime: 0
+    requiredStateToLeave: 0
+  - position: {x: -83, y: 9.294, z: 1.63}
+    animationTrigger: DropMoney
+    waitTime: 0
+    requiredStateToLeave: 0
+  - position: {x: -75.57257, y: 9.294, z: 3.117937}
+    animationTrigger: EnterAirplane
+    waitTime: 0
+    requiredStateToLeave: 0
